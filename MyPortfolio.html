@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="MyPortfolio.css">
+ 
+</head>
+<body>
+
+<header>    
+    <div class = "navbar">
+        <div class="logo">
+            <!-- <img src="" alt="" class="image"> -->
+            <h3 class = "anil" style="color:#ffffff; font-size:20px">My Portfolio</h3>
+        </div>
+       
+
+        <div class = "lists">
+            <ul>
+                <li><a href="javascript:void(0)" onclick="scrollToSection('home')">Home</a></li>
+                <li><a href="javascript:void(0)" onclick="scrollToSection('about')">About</a></li>
+                <li><a href="javascript:void(0)" onclick="scrollToSection('skills')">Skills</a></li>
+                <li><a href="javascript:void(0)" onclick="scrollToSection('education')">Education</a></li>
+                <li><a href="javascript:void(0)" onclick="scrollToSection('projects')">Projects</a></li>
+                <li><a href="javascript:void(0)" onclick="scrollToSection('contact')">Contact</a></li>
+                <button id = "resume" onclick="downloadPDF()">   Resume   </button>
+            </ul>
+
+        </div>
+        <div class = "but">
+            <button><a href="#">Contact</a></button>
+        </div>
+    </div>
+</header>
+ <!-- 
+            <h1>
+            <span style="font-size: 4rem;">KADAVAKOLLU ANIL KUMAR</span>
+            <br>
+            <span style ="font-size: 2.5rem; color:#FF004F">Programmer • Web Developer</span>
+          </h1>
+       
+         -->
+<main>
+<section id = "home">
+        <div class="background">
+            <img src="assets/background.avif" alt="Background-image">
+       <div class="background-text" >
+        <div id="typing1" style = "font-size:3.5rem; color:#efebed; font-weight:bold" > </div>
+           <h1> <div id = "typing2"></div></h1>
+        
+</div>
+    </div>
+</section>
+
+<section id = "about"> 
+    <h1 class="about-head">About Me</h1>
+    <div class="about">
+        
+        <img src="assets/anil.jpg" alt="Professional-photo">
+        
+        <h2 class = about-desc>
+            Hello, I am Kadavakollu Anil Kumar, an undergraduate student pursuing Computer Science and Engineering with a specialization in Artificial Intelligence at Sathyabama Institute of Science and Technology, Chennai.
+            I have a strong passion for front-end development, focusing on creating visually appealing and user-friendly web interfaces.
+            I am also interested in problem-solving and Data Structures & Algorithms (DSA) using Python. Currently, I am learning Full Stack Web Development to enhance my expertise in both front-end and back-end technologies.
+            I completed my 12th at Narayana Junior College, Anantapur, and I am originally from Anantapur, Andhra Pradesh.
+        </h2>
+        
+
+    </div>
+</section>
+
+
+<section id = "skills">
+<h1 class="skills-head">Skills</h1>
+
+<div class="skills-desc">
+
+    <div class="pf">
+    <div class="programming">
+        <h2>Programming Languages</h2>
+        <div class="programming-img">
+            <img src="assets/python.png" alt="python-logo">
+            <img src="assets/javaa-removebg-preview.png" alt="java-logo">
+        </div>
+    </div>
+
+    
+    <div class="front-end">
+        <h2>Front-End Development</h2>
+        <div class="front-end-img">
+        <img src="assets/html.png" alt="html">
+        <img src="assets/css.png" alt="css">
+        <img src="assets/js.png" alt="js">
+
+        </div>
+    </div>
+</div>
+
+  <div class="dbtools">  
+    
+    <div class="database">
+        <h2>Database</h2>
+        <div class="database-img">
+            <img src="assets/mysql.png" alt="mysql">
+        </div>
+        
+    </div>
+
+     
+    <div class="tools">
+        <h2>Tools & Platforms</h2>
+        <div class="tools-img">
+        <img src="assets/vscode.png" alt="vscode">
+        <img src="assets/github.png" alt="github">
+        <img src="assets/eclipse.png" alt="eclipse">
+        </div>
+    </div> 
+
+ </div>
+</section>
+
+<section id="education">
+    <h1 class="edu-head">Education</h1>
+
+   <div class="education">
+
+        <div class="sathyabama">
+            <img src="assets/sathyabama.png" alt="sathyabama logo">
+            <h3>Sathybama Institute of Science and Technology</h3>
+            <h4>Chennai,Tamil nadu</h4>
+            <h4>->B.E Computer Science Engineering and AI </h4>
+            <h4>->CGPA: 8.8</h4>
+        </div>
+
+        <div class="narayana">
+            <img src="assets/narayana.jpg" alt="narayana logo">
+            <h3>Narayana Junior College</h3>
+            <h4>Anantapur,Andhra pradesh</h4>
+            <h4>->12th Grade</h4>
+            <h4>->Percentage: 86%</h4>
+        </div>
+   </div>
+</section>
+
+<section id = "projects">
+    <h1 class="project-head">Projects</h1>
+
+    <div class="project1">
+        <img src="assets/portfolio.PNG" alt="my Portfolio">
+        <div class="project1-desc">
+        <h3>Personal Portfolio</h3>
+            <button>HTML</button>
+            <button>CSS</button>
+            <button>JavaScript</button>
+            <button>GitHub</button>
+      </div>
+    </div>
+
+    <div class="project2">
+        <img src="assets/background.avif" alt="sample project2">
+        <div class="project2-desc">
+            <h3>Sample project</h3>
+
+            <button>Programming Languages</button>  
+
+            <button>GitHub</button>
+        </div>
+    </div>
+
+    <div class="project3">
+        <img src="assets/background.avif" alt="sample project2">
+        <div class="project3-desc">
+            <h3>Sample project</h3>
+
+            <button>Programming Languages</button>
+
+            <button>GitHub</button>
+        </div>
+    </div>
+</section>
+
+<section id = "contact">
+
+<div class = contact>
+
+    <h1 class = "contact-head">Contact Details</h1>
+
+    <div class="contact-logos">
+        <a href="https://www.linkedin.com/in/anil-kumar-kadavakollu-694a3928a/  ">
+            <img src="assets/linked-in-logo.jpg" alt="linkedin" class="zoom-image">
+        </a>
+        
+        <a href="https://github.com/Anilkumarkadavakollu6">
+            <img src="assets/introduction-to-github.webp" alt="github" class="zoom-image1">
+        </a>
+       
+        <a href="mailto:kadvakolluanilkumar6@gmail.com?subject=Portfolio%20Contact&body=Hi%20Anil,%20I%20saw%20your%20portfolio.">
+            <img src="assets/gmail.jpg" alt="gmail" class="zoom-image2">
+        </a>
+    
+    </div>
+</div>
+
+
+
+
+</section>
+
+
+</main>
+
+<footer class = "footer">
+    <h4>© 2025 Created by KADAVAKOLLU ANIL KUMAR </h4>
+</footer>
+
+<script src="Myportfolio.js"></script>
+</body>
+</html>
